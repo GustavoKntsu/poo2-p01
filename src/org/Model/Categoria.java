@@ -1,28 +1,29 @@
 package org.Model;
 
-import javax.swing.*;
-import javax.swing.event.ListDataListener;
 import java.util.List;
 
-public class Marca {
+public class Categoria {
     private long id;
     private String nome;
+    private float valorLocacao;
     private List<Modelo> listModelos;
-    //**************
+    //*******************
     //CONSTRUTORES
-
-    public Marca() {
+    public Categoria() {
         this.id = 0;
         this.nome = "";
+        this.valorLocacao = 0;
         this.listModelos = null;
     }
 
-    public Marca(long id, String nome, List<Modelo> listModelos) {
+    public Categoria(long id, String nome, float valorLocacao, List<Modelo> listModelos) {
         this.id = id;
         this.nome = nome;
+        this.valorLocacao = valorLocacao;
         this.listModelos = listModelos;
     }
-    //****************************************
+    //*************************************************
+
 
     public long getId() {
         return id;
@@ -38,6 +39,14 @@ public class Marca {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public float getValorLocacao() {
+        return valorLocacao;
+    }
+
+    public void setValorLocacao(float valorLocacao) {
+        this.valorLocacao = valorLocacao;
     }
 
     public List<Modelo> getListModelos() {

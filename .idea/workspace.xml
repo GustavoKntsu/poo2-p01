@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61d57b68-f989-4298-90fc-bdb3c58c286f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/Model/Marca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/Model/Modelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/Principal/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/ContratoLocacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Locacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Manutencao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Ocorrencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Pagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/Model/Veiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Model/Marca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Model/Marca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Model/Modelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Model/Modelo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,34 +29,46 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../../../laragon/bin/php/php-8.4.10-nts-Win32-vs17-x64/php.exe" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="31ZTfRJ8DDD2q8gLBrn2ITpBOoV" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.Model" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755730698954</updated>
-      <workItem from="1756350305201" duration="561000" />
+      <workItem from="1756350305201" duration="692000" />
+      <workItem from="1756385784349" duration="4306000" />
     </task>
     <servers />
   </component>
